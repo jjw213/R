@@ -68,6 +68,7 @@ ggplot(mtcars, aes(x=factor(cyl)))+geom_bar(aes(fill=factor(gear)))+coord_polar(
 
 ggplot(airquality, aes(x=day, y=temp, group=day))+geom_boxplot()
 ggplot(airquality, aes(temp))+geom_histogram(binwidth=1)
+ggplot(airquality, aes(temp))+geom_histogram(binwidth=3)
 
 #미국의 경제 지표를 날짜 별로 나타낸 데이터 세트
 str(economics)
