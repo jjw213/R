@@ -7,6 +7,7 @@ print(x1)
 y1<-c("Hi", "Hello")
 print(y1)
 
+#readxl 불러오기
 install.packages("readxl")
 library(readxl)
 
