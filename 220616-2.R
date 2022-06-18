@@ -51,6 +51,7 @@ head(apart_data)
 apart_data$전용면적=round(apart_data$전용면적)
 count(apart_data,전용면적) %>% arrange(desc(n))
 apart_data_85 <- subset(apart_data, 전용면적>=85)
+head(apart_data_85)
 
 apart_data_85$거래금액<-gsub(",","",apart_data_85$거래금액.만원.)
 
